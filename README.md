@@ -1,116 +1,40 @@
-Contribution: 2021-11-09 20:00
+# Blockchain tracker example
+Tracks Ether and Token transfers for given wallets and amount. [Read more on Medium](https://medium.com/pixelpoint/track-blockchain-transactions-like-a-boss-with-web3-js-c149045ca9bf).
 
-Contribution: 2021-11-11 20:00
+## Requirements
+- [Node 8+](https://nodejs.org/en/)
+- [Yarn (optional)](https://yarnpkg.com/en/)
 
-Contribution: 2021-11-11 20:01
+## Setup
 
-Contribution: 2021-11-11 20:02
+```
+git clone git@github.com:dsemenovsky/blockchain-tracker-example.git
+cd blockchain-tracker-example
+yarn install
+```
 
-Contribution: 2021-11-11 20:03
+Fill .env from .env.example with the token contract address, wallets and amount.
+Pluton token contract is provided for this example.
 
-Contribution: 2021-11-11 20:04
+```
+NODE_ENV=development
 
-Contribution: 2021-11-11 20:05
+INFURA_URL=https://rinkeby.infura.io/CUNjkZ8qg6WZHqeFNJyL
+INFURA_WS_URL=wss://rinkeby.infura.io/ws
 
-Contribution: 2021-11-11 20:06
+ETH_BLOCK_TIME=30
 
-Contribution: 2021-11-12 20:00
+TOKEN_CONTRACT_ADDRESS=0xb4e95c65c23cab8c4fcaf15e4936c392e6ab21bf
 
-Contribution: 2021-11-12 20:01
+WALLET_FROM=
+WALLET_TO=
+AMOUNT=
+```
 
-Contribution: 2021-11-13 20:00
+## Running
 
-Contribution: 2021-11-13 20:01
+Simply start the service and make a transfer from one wallet to another on Rindkeby testnet.
 
-Contribution: 2021-11-13 20:02
-
-Contribution: 2021-11-13 20:03
-
-Contribution: 2021-11-13 20:04
-
-Contribution: 2021-11-14 20:00
-
-Contribution: 2021-11-14 20:01
-
-Contribution: 2021-11-14 20:02
-
-Contribution: 2021-11-14 20:03
-
-Contribution: 2021-11-14 20:04
-
-Contribution: 2021-11-14 20:05
-
-Contribution: 2021-11-14 20:06
-
-Contribution: 2021-11-14 20:07
-
-Contribution: 2021-11-14 20:08
-
-Contribution: 2021-11-14 20:09
-
-Contribution: 2021-11-17 20:00
-
-Contribution: 2021-11-19 20:00
-
-Contribution: 2021-11-20 20:00
-
-Contribution: 2021-11-20 20:01
-
-Contribution: 2021-11-20 20:02
-
-Contribution: 2021-11-20 20:03
-
-Contribution: 2021-11-20 20:04
-
-Contribution: 2021-11-21 20:00
-
-Contribution: 2021-11-21 20:01
-
-Contribution: 2021-11-21 20:02
-
-Contribution: 2021-11-21 20:03
-
-Contribution: 2021-11-21 20:04
-
-Contribution: 2021-11-21 20:05
-
-Contribution: 2021-11-21 20:06
-
-Contribution: 2021-11-21 20:07
-
-Contribution: 2021-11-21 20:08
-
-Contribution: 2021-11-21 20:09
-
-Contribution: 2021-11-21 20:10
-
-Contribution: 2021-11-24 20:00
-
-Contribution: 2021-11-24 20:01
-
-Contribution: 2021-11-24 20:02
-
-Contribution: 2021-11-24 20:03
-
-Contribution: 2021-11-24 20:04
-
-Contribution: 2021-11-24 20:05
-
-Contribution: 2021-11-26 20:00
-
-Contribution: 2021-11-26 20:01
-
-Contribution: 2021-11-26 20:02
-
-Contribution: 2021-11-26 20:03
-
-Contribution: 2021-11-26 20:04
-
-Contribution: 2021-11-26 20:05
-
-Contribution: 2021-11-26 20:06
-
-Contribution: 2021-11-26 20:07
-
-Contribution: 2021-11-26 20:08
-
+```
+yarn start
+```
