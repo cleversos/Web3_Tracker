@@ -1,6 +1,3 @@
-# Blockchain tracker example
-Tracks Ether and Token transfers for given wallets and amount. [Read more on Medium](https://medium.com/pixelpoint/track-blockchain-transactions-like-a-boss-with-web3-js-c149045ca9bf).
-
 ## Requirements
 - [Node 8+](https://nodejs.org/en/)
 - [Yarn (optional)](https://yarnpkg.com/en/)
